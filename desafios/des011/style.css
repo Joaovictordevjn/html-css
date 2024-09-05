@@ -1,0 +1,15 @@
+.espaco {
+    width: 50px;
+    /*LARGURA*/
+    height: 50px;
+    /* ALTURA */
+    z-index: -1;
+    /* DEFINE QUEM FICA NA FRENTE DE QUEM */
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.astronauta {
+    text-align: center;
+    margin-top: 25%;
+}

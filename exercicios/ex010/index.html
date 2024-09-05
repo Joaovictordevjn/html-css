@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links </title>
+</head>
+
+<body>
+    <h1>Usando links externos</h1>
+    <hr>
+    <p>Você pode acessar o meu <a
+            href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex009/index.html"
+            target="_blank" rel="external">repositório
+            público do GitHub</a></p>
+
+    <p>Você também pode acessar o meu <a
+            href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27"
+            target="_blank" rel="external">canal no Youtube</a></p>
+            <h2>Usando links internos</h2>
+
+            <p>Acesse a nossa página de notícias <a href="noticias/pag.002.html">clicando aqui</a></p>
+
+            <h2>Links para download</h2>
+            <ul>
+                <li><a href="Livro/meulivro.pdf" download="meulivro.pdf.pdf" type="application/pdf">Baixar o livro em PDF.</a></li>
+                <li><a href="Livro/meulivro.zip" download="meulivro.zip.zip" type="application/zip">Baixar o livro compactado em ZIP.</a></li>
+            </ul>
+
+    <H2>Comentário importantes</H2>
+
+    <p>Para que qualquer link que eu deixe de ref abra em outra nova guia, eu preciso adicionar a minha tag "a" os
+        termos: <strong>target="_blank" rel="external"</strong></p>
+        <p>Devemos utilizar o termo <strong>rel="next"</strong> para facilitar o sistema de navegação a saber qual é a próxima página</p>
+        <p>Devemos utilizar o termo <strong>rel="prev"</strong> para facilitar o sistema de navegação a saber qual é a página anterior.</p>
+        <p>Sempre que eu quiser colocar na tag "href" um link que esteja fora da pasta que estou trabalhando, devo utilizar: dois pontos finais: <strong>(..)</strong></p>
+        <p>Devemos utilizar o termo <strong>rel="self"</strong> para facilitar o sistema de navegação a saber qual é a próxima página</p>
+        <p>Devemos utilizar o <strong>"target=self"</strong> para definir que o link será aberto na própria página.</p>
+        <p>Para adicionar a função "download" a um link, devemos adicionar os termos <strong>download="NOME DO ARQUIVO" type="application/TIPO DO ARQUIVO"</strong></p>
+        <h4><a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">Link para informação sobre types de tipo de arquivo.</a></h4>
+</body>
+
+</html>

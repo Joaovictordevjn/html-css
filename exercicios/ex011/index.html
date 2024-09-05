@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navehador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+        <img src="imgs/foto-g.png" alt="Imagem flexível">
+    </picture>
+    
+    <h1>Utilizando áudio no site</h1>
+    <audio src="midia/smoked.mp3" autoplay controls>  </audio>
+    <h1>Comentários</h1>
+    <p>A tag &lt;img&gt; deve ser a primeira imagem, e as imagens flexíveis vem a partir da tag &lt;source media type&gt; preferindo começar da maior imagem para a menor imagem.
+    </p>
+    <p>Não esquecendo de acrescentar alguns px de folga para não haver barra de rolamento.</p>
+    <p>Para utilizar áudio no nosso site, usamos a tag &lt;audio&gt; e <strong>os termos "autoplay e controls"</strong></p>
+</body>
+</html>

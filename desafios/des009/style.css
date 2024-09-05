@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.753);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h1{
+    color: #fff;
+    
+}    
+
+a {
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+.botao{
+    padding: 20px;
+    
+}
+
+.videohtml {
+    padding: 15px;
+}
+
+.videojs {
+    padding: 15px;
+
+}
+
+.videopython {
+    padding: 15px;
+
+}
+.videohard {
+    padding: 15px;
+
+}

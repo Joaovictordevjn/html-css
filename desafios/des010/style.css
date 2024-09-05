@@ -1,0 +1,43 @@
+.menu {
+    background-image: linear-gradient(to bottom, lightgreen, green);
+    text-align: center;
+    color: #fff;
+    padding: 15px 30px;
+    p{
+        color: dimgrey;
+    }
+}
+
+.menu1 {
+    background-color: green;
+    display: flex;
+    color: #fff;
+    padding: 5px 10px;
+   margin: 0;
+   gap: 15px;
+}
+
+p{
+    font-size: 16px;
+  
+}
+
+h2 {
+    background-color: lightgreen;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.conteiner {
+    background-color: rgb(66, 167, 167);
+    height: 50%;
+    width: 800px;
+    margin-left: 25%;
+    text-align: justify;
+    padding: 20px 35px;
+    
+    }
+
